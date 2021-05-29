@@ -2,8 +2,8 @@
 
 ## few important concept i want to highlight here 
 - Define bable and webpack to genrate the bundle for react component 
-- add appropriate script under build to build bundle and if require start the development server 
-- One important thing is webpack generate a html from template 
+- add appropriate script under package.json to build bundle and if require start the development server 
+-  webpack generate a html from template and store at given location 
  ```template: path.resolve( __dirname, 'src/index.html' )```
  
 - and this html is used to prepare server side markup
@@ -38,3 +38,5 @@ require("./express.js");
 
 - build the bundle using script from package.json and deploy it to nodejs server
    
+- index.js uses hydrate to use domeleemnt generated at server side 
+  and at client side rending it uses to associate event listner etc with react component 
