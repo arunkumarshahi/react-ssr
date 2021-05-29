@@ -12,15 +12,15 @@
     {
       encoding: "utf8",
     }
-  );```
+  );
 
-  ``` let appHTML = ReactDOMServer.renderToString(<AppComp />);
+  let appHTML = ReactDOMServer.renderToString(<AppComp />);
   indexHTML = indexHTML.replace(
     '<div id="app"></div>',
     `<div id="app">${appHTML}</div>`
-  );  ```
-  
--  last thig to transpile appHTML used following code in index.js
+  );  
+  ```
+  -  last thig to transpile appHTML used following code in index.js
 
   ``` const path = require("path");
 
