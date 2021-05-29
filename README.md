@@ -1,6 +1,6 @@
 # react-ssr
 
-## few important concept i want to highlight here 
+## few important concepts -  wanted to highlight here 
 - Define bable and webpack to genrate the bundle for react component 
 - add appropriate script under build to build bundle and if require start the development server 
 - One important thing is webpack generate a html from template 
